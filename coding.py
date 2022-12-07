@@ -19,3 +19,8 @@ ls -v v2.* | xargs paste > m.txt
 
 
 icd10 = pd.read_csv("case.txt",sep=",",index_col=False,header=None
+list1 = [10, 22, 19]
+list2 = [2, 9, 3]
+
+list3 = list1 + list2
+print(list3)
