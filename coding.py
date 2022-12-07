@@ -18,3 +18,4 @@ tmp = pd.DataFrame.from_dict(dic,orient='index')
 ls -v v2.* | xargs paste > m.txt
 
 
+icd10 = pd.read_csv("case.txt",sep=",",index_col=False,header=None
